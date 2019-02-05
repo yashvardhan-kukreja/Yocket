@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Yocket Task</string>
+    <string name="movie_description">The story and characters you know and love come to spectacular life in the live-action adaption of Disney\'s animated classic Beauty and the Beast.</string>
+    <string name="rent_button_0">Rent from R29.99</string>
+    <string name="rent_button_1">Rent from R127.99</string>
+    <string name="title">Beauty and the Beast</string>
+</resources>
