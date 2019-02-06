@@ -48,7 +48,7 @@
             app:layout_constraintHorizontal_bias="0.032"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/main_cover"
-            app:layout_constraintVertical_bias="0.259" />
+            app:layout_constraintVertical_bias="0.279" />
 
         <TextView
             android:id="@+id/title"
@@ -56,7 +56,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
-            android:text="Beauty and the Beast"
+            android:text="@string/title"
             android:textColor="#000000"
             app:layout_constrainedWidth="true"
             android:textSize="26sp"
@@ -76,22 +76,24 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:text="March 2017 PG 129 minutes"
-            app:layout_constrainedWidth="true"
             android:textSize="17sp"
+            app:layout_constrainedWidth="true"
             app:layout_constraintBottom_toBottomOf="@+id/poster"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintVertical_bias="0.0"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/title"
-            app:layout_constraintTop_toBottomOf="@+id/title" />
+            app:layout_constraintTop_toBottomOf="@+id/title"
+            app:layout_constraintVertical_bias="0.0" />
 
         <ImageView
             android:id="@+id/bookmark"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:focusable="true"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
+            android:clickable="true"
             android:src="@drawable/ic_bookmark_border_black_24dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -111,9 +113,10 @@
             android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/sub_title"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.064" />
 
         <include
             android:id="@+id/include3"
