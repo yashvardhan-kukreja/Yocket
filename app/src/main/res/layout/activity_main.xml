@@ -76,6 +76,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:text="March 2017 PG 129 minutes"
+            app:layout_constrainedWidth="true"
             android:textSize="17sp"
             app:layout_constraintBottom_toBottomOf="@+id/poster"
             app:layout_constraintEnd_toEndOf="parent"
